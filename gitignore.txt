@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node (만약 도구를 추가할 경우)
+node_modules/
+npm-debug.log*
+
+# 빌드/임시
+*.pdf
+*.tmp
+dist/
+
+# 플레이어가 만든 캐릭터 파일은 커밋하지 않음(원하면 examples/로 옮기세요)
+/*.ovrc
