@@ -730,7 +730,7 @@ function stripTags(s, live){
    파일은 HTML과 같은 폴더에 <mood소문자>.png 로 둔다. 정리하려면 SPRITE_BASE만 "sprites/" 로.
    파일이 없으면 명세서 7-2 폴백(다른 MOOD) → 그것도 없으면 이모지 아바타.
    이미지가 한 장도 없어도 게임은 정상 동작한다. */
-const SPRITE_BASE = "";   // 예) 폴더 정리 시 "sprites/"
+const SPRITE_BASE = "sprites/";   // 스프라이트를 sprites/ 폴더에 모아둠 (루트에 두려면 "")
 const MOOD_LABEL = {
   NEUTRAL:"대기", FIRM:"단호", WARY:"경계", FLUSTERED:"동요", SOFT:"부드러움",
   DEFEATED:"체념", COLD:"냉담", SURPRISED:"놀람", EXASPERATED:"피로"
